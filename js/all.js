@@ -5,9 +5,9 @@ const app = {
         return {
             apiUrl: "https://vue3-course-api.hexschool.io/v2",
             apiPath: "truth",
-            currentPage: "./Vue-W3/products.html",
-            targetPage: "./Vue-W3/products.html",
-            repatriationPage: "./Vue-W3/login.html",
+            currentPage: "/Vue-W3/products.html",
+            targetPage: "./products.html",
+            repatriationPage: "./login.html",
             products: [],
             productTemplate: {},
             productEmptyTemp: {
